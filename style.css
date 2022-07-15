@@ -1,0 +1,92 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Barlow&display=swap');
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1 {
+    font-family: Barlow, sans-serif;
+}
+
+section {
+    margin-bottom: 15px;
+    padding-bottom: 15px;
+    border-bottom: 1px dashed #444;
+}
+
+.block {
+    width: 75px;
+    height: 75px;
+    margin: 25px;
+    border: 2px solid #333;
+}
+
+.active {
+    background: orange;
+}
+
+.hide {
+    display: none;
+}
+
+.sliderImg {
+    width: 64px;
+}
+
+.maxImg {
+    width: 128px;    border: 3px solid #fff;
+
+}
+
+.activeImg {
+    border: 3px solid black;
+}
+
+.slider__btns {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.arrow__btns {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+ .prev, .next, .reset {
+    font-family: Barlow, sans-serif;
+    transition: background 0.3s ease-in-out;
+    margin-left: 5px;
+    background: orange;
+} 
+
+.prev, .next {
+    width: 65px;
+    height: 60px;
+    font-size: 40px;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.next {
+    margin-left: 30px;
+}
+
+.reset { 
+    font-size: 20px;
+    width: 100px;
+    height: 40px;
+}
+
+ .prev, .next {
+    border-radius: 50%;
+} 
+
+.prev:hover, .next:hover, .reset:hover {
+    background: wheat;
+}
